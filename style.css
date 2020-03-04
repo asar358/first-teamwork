@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+}
+
+.flex-container  > div {
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: aliceblue;
+    
+}
