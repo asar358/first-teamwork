@@ -1,16 +1,34 @@
-.flex-container {
-    display: flex;
-    background-color: blue;
-    justify-content: space-around;
+/*styling for the body*/
+body 
+{
+	background-image: url('https://images.megapixl.com/2090/20904803.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.flex-container  > div {
-    margin: 20px;
-    padding: 20px;
-    font-size: 30px;
-    background-color: aliceblue;
-    
+/*styling for header*/
+h1 {
+	text-shadow: 2px 2px 8px #FF0000;
+	text-align: center;
 }
-</style>
-</head>
-<body>
+
+/*flex container styling*/
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  border: .75px solid;
+	box-shadow: 10px 10px 5px;
+	text-align: justify;
+}
+
+/*gradient styling for flex box areas with text*/
+.text {
+	  background: red;
+  	background: linear-gradient(40deg, red, orange, yellow);
+}
